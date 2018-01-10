@@ -1,0 +1,374 @@
+body{
+    background-color: #76D7C4;
+    background-image: url("https://vmcink.files.wordpress.com/2017/01/galaxy.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    font-family: 'Aclonica',serif,Times, 'Times New Roman',Georgia;
+    line-height: 1.5em;
+}
+.wrapper{
+    background-color: rgba(100, 89, 125, 0.7);
+    margin: 1em auto;
+    width: 960px;
+}
+header{
+    height: 5em;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(75, 0, 255, 0.49) 100%), 
+     url("navbar.jpg"); 
+}
+header h1{
+    text-align: center;
+    padding-top: .5em;
+    width: 100%;
+    margin-bottom: 1em;
+    color: #00ff0a;
+}
+nav, footer{
+    font-family: 'Times New Roman',serif,Georgia;
+    clear: both;
+    background-color: rgb(177, 148, 124);;
+    color: black;
+    text-align: center;
+    height: 2em;
+    box-shadow: 1px 1px 5px black;
+}
+nav ul{
+    margin: 0;
+    padding: .25em 0;
+}
+nav li{
+    display: inline;
+    padding: 0 1em;
+    border-right: 2px solid black;
+}
+nav li a{
+    padding: .5em;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover, nav a.linkOn{
+    font-size: 1.25em;
+    background-color: white;
+    color: #b1947c;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 5px;
+    box-shadow: 5px -5px 5px black;
+
+}
+section.blog{
+    float: left;
+    width: 70%;
+    border-right: 1px solid #d2d2d2;
+    padding-right: 1em;
+    margin-top: 1.7em;
+}
+.blog h2{
+    text-align: center;
+    padding-left: 1em;
+    color: #ff9090;
+}
+article {
+    clear: both;
+    width: 100%;
+}
+article figure{
+    float:left;
+    margin: 1em;
+    margin-top: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 290px;
+    padding: .25em;
+}
+article figure img{
+    width: 100%;
+    border-radius: 5px;
+}
+article hgroup{
+    font-size: 1.2em;
+}
+article p {
+    font-family: serif,'Times New Roman',Georgia;
+    font-size: 1.2em;
+    color: white;
+}
+article a{
+    text-decoration: none;
+    color: #ff9090;
+}
+article a:hover{
+    
+    background-color: white;
+    color: blue
+}
+aside address{
+    padding-left: .5em;
+}
+aside h2{
+    padding-left: .5em;
+}
+aside{
+    float: left;
+    width: 25%;
+    margin-top: 1em;
+}
+
+aside section a{
+    text-decoration: none;
+    display: block;
+    padding: .75em;
+    border-bottom:  .5px solid #dddddd;
+    color: #ff9090;
+}
+aside section a:hover{
+    border-left: 5px solid brown;
+    font-size: 1.25em;
+    background-color: rgba(177, 148, 124, 0.60);
+    color: black;
+}
+footer{
+    font-size: 75%;
+}
+/* contact.html extra css */
+section.contactBlog{
+    width: 100%;
+    padding-right: 1em;
+    margin-top: 1.7em;
+    
+}
+form{
+    width: 600px;
+    margin: 20px auto
+}
+.contactBlog h2{
+    margin-top: 1.5em;
+    text-align: center;
+    color: #ff9090;
+}
+    
+input, textarea{
+    border: 0; outline: 0;
+    padding: .75em;
+    border-radius: 5px;
+    display: block; 
+    margin-top: 1em;
+    resize: none;
+    
+}
+input:focus, textarea:focus{
+    box-shadow: 0 0 5px red;
+}
+#input-submit{
+    background-color: red;
+    color: white;
+    padding-right: 5em;
+    padding-left: 5em;
+    text-align: center;
+}
+#input-submit:hover{
+    box-shadow: 0 1px 1px 1px red;
+}
+textarea{
+    height: 126px;
+}
+#input-submit{
+    margin-bottom: 10%;
+}
+/* about.html extra css*/
+section.aboutBlog{
+    float: left;
+    width: 70%;
+    border-right: 1px solid #d2d2d2;
+    padding-right: 1em;
+    margin-top: 1.7em;
+}
+.aboutBlog h2{
+    font-size: 2em;
+    text-align: center;
+    padding-left: 1em;
+    color: #ff9090; 
+}
+.aboutBlog p{
+    padding-left: 1em;
+    font-family: serif,'Times New Roman',Georgia;
+    font-size: 1.5em;
+    color: white;
+}
+
+/* articcle.html extra css */
+section.javaBlog{
+    float: left;
+    width: 70%;
+    border-right: 1px solid #d2d2d2;
+    padding-right: 1em;
+    margin-top: 1.7em;
+}
+.javaBlog h2{
+    text-align: center;
+    width: 80%;
+    margin: 0;
+    margin-right: 0;
+    padding-left: 4em;
+    color: #ff9090;
+}
+.javaBlog article p{
+    text-indent: 1em;
+    font-family: serif,'Times New Roman',Georgia;
+    color: white;
+}
+.goback{
+    padding: 1em;
+    color: red;
+}
+section.languagesBlog{
+    float: left;
+    width: 70%;
+    border-right: 1px solid #d2d2d2;
+    padding-right: 1em;
+    margin-top: 1.7em;
+}
+.languagesBlog h2{
+    text-align: center;
+    padding-left: 1em;
+    color: #ff9090
+}
+.languagesBlog a{
+    text-decoration: none;
+    color: red;
+}
+.languagesBlog a:hover{
+    font-size: 1.25em;
+    border: 5px solid white;
+}
+.languagesBlog h5{
+    margin-left: 1.5em;
+    color: lime;
+}
+
+/*Media QUery for a 1600 Device: */
+@media all and (min-width: 1334px) and (max-width:1334px){
+    .wrapper{
+        width: 75%;
+    }
+    .javaBlog article p{
+        padding-bottom: 4em;
+    }
+}
+/*Media QUery for a 1334 Device: */
+@media all and (min-width: 1024px) and (max-width:1334px){
+    .wrapper{
+        width: 75%;
+    }
+}
+/*Media QUery for a 1024px Device: */
+@media all and (min-width: 768px) and (max-width:1024px) {
+    .wrapper{
+        width: 95%;
+    }
+}
+
+/*Media QUery for a Tablet Device: */
+@media all and (min-width:480px) and (max-width:768px){
+    .wrapper{
+        width: 98%;
+    }
+    .wrapper section{
+        width: 98%;
+        clear: both;
+        border-right: none;
+        padding: 0;
+        
+    }
+    article figure{
+        width: 60%;
+    }
+    aside{
+       clear: both;
+       width: 100%;
+       text-align: center;
+       padding-left: 1em;
+    }
+    aside section a{
+        border-top: .5px solid white;
+    }
+    section.languagesBlog{
+        font-size: 1.5em
+    }
+    .languagesBlog li{
+        padding-bottom: .5em;
+    }
+}/*end of 760px Query */
+
+/* Media Friendly Query max-width 480px */
+@media all and (max-width: 480px){
+
+    .wrapper{
+        width: 100%;
+        margin: 0 auto;
+        border: 0;
+    }
+    header{
+        height: 4em;
+    }
+    header h1{
+    font-size: 1.5em;
+    padding-top: .25em;
+    margin-bottom: .5em;
+    margin-top: 0;
+    }
+    nav ul{
+        font-size: .90em;
+    }
+    nav li{
+        padding: 0;
+        margin: 0;
+    }
+    nav li a{
+        padding: .25em;
+    }
+    nav li a:hover, nav li a.linkOn{
+        box-shadow: -2px 2px 1px black;
+    }
+    .wrapper section{
+    clear: both;
+    width: 100%;
+    border-right: none;
+    padding-right: 0;
+    }
+    section.blog h2, section.aboutBlog h2, section.languagesBlog h2, section.contactBlog h2, section.javaBlog h2{
+        text-align: left;
+        padding: 0;
+    }
+    article{
+        padding: 1em;
+        width: 90%;
+    }
+    article figure{
+        clear: both;
+        margin: 0;
+        width: 95%;
+        border-radius: 10px;
+        margin-bottom: 1em;
+        
+    }
+    article hgroup{
+        margin-top: 1em;
+        clear: both;
+    }
+    form{
+        width: 100%;
+        margin-left: 4em;
+    }
+    aside{
+        clear: both;
+        width: 100%;
+        text-align: center;
+    }
+    aside section h2{
+        text-align: center
+    }
+    aside a{
+        border-top: .5px solid white;
+    }
+}/*end of 480px query */
